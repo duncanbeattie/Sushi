@@ -1,0 +1,112 @@
+@import: url('http://fonts.googleapis.com/css?family=Open+Sans');
+
+html{
+	background: #303030;
+	box-shadow: 0 0 2em rgba(0,0,0,.5) inset;
+	min-height: 100%;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+	color: #fafafa;
+	width: 960px;
+	margin: 0 auto;
+}
+
+h1{
+    font-size: 4.5em;
+    font-weight: 300;
+    margin: 0;
+}
+h2{
+    font-size: 1.25em;
+    font-weight: 100;
+    margin: 0 0 1.75em;
+}
+h3{
+	font-weight: 400;
+	margin: 0 0 3%;
+}
+
+#sushi{
+	width: 100%;
+	min-height: 350px;
+	position: relative;
+	overflow: hidden;
+}
+	#sushi img{
+	}
+	#sushi .fallback{
+		text-align: center;
+		color: #444;
+		position: absolute;
+		top: 40%;
+		width: 100%;
+	}
+	
+
+
+
+.gal_title{
+    background: rgba(220, 230, 255, 0.5);
+    border-radius: .25em;
+    color: #fff;
+    cursor: pointer;
+    float: left;
+    margin: 1%;
+    padding: 1%;
+    text-align: center;
+    text-shadow: -1px -1px 0 rgba(0,0,0,.15);
+    width: 21%;
+}	
+	.gal_title h3{
+		font-weight: 400;
+		margin: 0 0 3%;
+	}
+	#sushi .imgHolder, .gal_grid .bigpic img{width: 100%;}
+	#sushi .imgHolder{
+		overflow: hidden;
+		max-height: 100px;
+	}
+		#sushi .imgHolder img{
+			max-width: 100%;
+			min-height: 50px;
+			width: 100%;
+			display: block;
+		}
+	.gal_grid{
+		clear: both;
+	}
+	.gal_grid .bar{
+		height: 30px;
+		margin: 0;
+	}
+	.gal_grid .bar h3{
+	    float: left;
+	    margin: 0;
+	}
+	.gal_grid .close{
+		float: right;
+		cursor: pointer;
+	}
+	.gal_grid .bigpic{
+		width: 100%;
+		margin: 0 auto .75em;
+	}
+	.gal_grid .gal_thms{
+		background: rgba(220, 230, 255, 0.5);
+		overflow: hidden;
+		width: 100%;
+		margin: 0 auto;
+	}
+		#sushi .gal_grid .gal_thms .imgHolder{
+			width:12.25%;
+			float: left;
+			margin: 1%;
+			cursor: pointer;
+			box-shadow: 0 2px 3px rgba(0, 0, 0, 0.35);
+			height: 50px;
+			overflow: hidden;
+		}
+
+
+

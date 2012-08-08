@@ -1,0 +1,17 @@
+<xml>
+    <gallery>
+        <folder name="Sushi Sushi Sushi" url="gallery/sushi1/1.jpg">
+            <image name="Sushi pic" altText="eat moar Sushi" url="gallery/sushi1/1.jpg" />
+            <image name="nom" altText="moar moar moar Sushi" url="gallery/sushi1/2.jpg" />
+            <image name="1" altText="Sushi" url="gallery/sushi1/3.jpg" />
+            <image name="1" altText="Sushi" url="gallery/sushi1/4.jpg" />
+        </folder>
+        
+        <folder name="Moar Sushi" url="gallery/sushi2/1.jpg">
+            <image name="Sushi pic" altText="eat moar Sushi" url="gallery/sushi2/1.jpg" />
+            <image name="nom" altText="moar moar moar Sushi" url="gallery/sushi2/2.jpg" />
+            <image name="1" altText="Sushi" url="gallery/sushi2/3.jpg" />
+            <image name="1" altText="Sushi" url="gallery/sushi2/4.jpg" />
+        </folder>
+    </gallery>
+</xml>
